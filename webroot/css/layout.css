@@ -1,0 +1,83 @@
+body, .top-bar.expanded, .top-bar, .top-bar-section ul li, .top-bar-section li:not(.has-form) a:not(.button), .vertical-table th, table tr th, table tr td {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #fff;
+}
+thead th a, .side-nav li.heading {
+    color: #333;
+}
+h1,h2,h3,h4 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#title-sharp, #username-top-bar, .side-nav li a:not(.button), .content .related h4 {
+   color: #0099ab;
+}
+table tr th {
+    /*border-bottom: 2px solid #0099ab;*/
+    border-bottom: 2px solid #333;
+}
+.side-nav li.heading:hover, a:hover, .side-nav li a:hover:not(.button) {
+    color: #2100ff;
+}
+
+.content h3 {
+    color: #2100ff;
+    display: inline-block;
+}
+div.message.success {
+    background-color: #24e316;
+}
+button {
+    color: #fff;
+    background-color: #666;
+}
+.form button:hover, .form button:focus {
+    background-color: #2100ff;
+}
+.top-bar-section li:not(.has-form) a:not(.button):hover, #username-top-bar:hover {
+    background-color: #fff;
+    color: #2100ff;
+}
+#logo-container {
+    background-color: #fafafa;
+}
+
+.top-bar-section ul {
+    width: auto;
+}
+.top-bar-section li {
+    margin: 0;
+}
+.top-bar-section ul li > a {
+    padding: 12px 0.9375rem 12px 0.9375rem;
+    font-size: 1rem;
+}
+
+img.logo {
+    width: 125px;
+    height: 50x;
+}
+.side-nav li.heading i {
+    color: #2100ff;
+    margin-left: 5px;
+}
+.side-nav {
+    padding-bottom: 0;
+}
+.side-nav li.heading, .side-nav li {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.help-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 1.8rem;
+    font-family: 'Montserrat', sans-serif;
+    border: 0;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #2100ff;
+}
